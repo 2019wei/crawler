@@ -7,7 +7,7 @@
       'user-agent' :  'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'  
     }  
       
-    res =　　　　#網址下面-參考Beauty版requests.get('https://www.ptt.cc/bbs/Beauty/M.1548652105.A.240.html',headers=headers)     
+    res = requests.get('https://www.ptt.cc/bbs/Beauty/M.1548652105.A.240.html',headers=headers) #網址下面-參考Beauty版    
     soup = BeautifulSoup(res.text,'html.parser')  
     imgages = soup.select('a[href$=jpg]')  #抓取a連結 href 的網址  #'＄＝結尾'，^=開頭
     for i in imgages:    #把list一個一個抓出來 for loop
