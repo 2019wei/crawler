@@ -1,4 +1,4 @@
-中油天然氣事業部-歷年天然氣價格資料 [enter link description here](https://web.cpc.com.tw/division/lngb/oil-more8.aspx)
+中油天然氣事業部-歷年天然氣價格資料 [點我](https://web.cpc.com.tw/division/lngb/oil-more8.aspx)
 
 #hwhw4.py  這次主要是先把 1.工業用戶2.瓦斯公司3.汽電共生4.直營家庭 都不為0的資料抓出來 各自為list 然後再匯入mysql資料中，
 
