@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 import requests
 import pymysql
 
-conn=pymysql.connect('localhost','root','p1234567','historygasprice2')
+conn=pymysql.connect('localhost','root','mysql密碼','historygasprice2')
 cursor = conn.cursor()
 
 url='https://web.cpc.com.tw/division/lngb/oil-more8.aspx'
